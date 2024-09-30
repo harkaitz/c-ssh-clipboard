@@ -1,0 +1,2 @@
+#!/bin/sh -e
+make TPREFIX=x86_64-w64-mingw32- EXE=.exe clean all
