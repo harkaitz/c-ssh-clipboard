@@ -1,0 +1,3 @@
+#!/bin/sh -e
+#help: Build for GNU/Linux.
+make TPREFIX=x86_64-linux-gnu- EXE= clean all

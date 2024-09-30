@@ -31,8 +31,8 @@ A cross device personal clipboard that uses SSH as it's protocol.
 
 ## Usage
 
-    m1$ ssh-copy hosts < /etc/hosts
-    m2$ ssh-paste hosts
+    m1$ ssh-copy -i hosts < /etc/hosts
+    m2$ ssh-paste -i hosts
 
 ## Style guide
 

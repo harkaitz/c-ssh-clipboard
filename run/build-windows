@@ -1,2 +1,3 @@
 #!/bin/sh -e
+#help: Build for MS Windows.
 make TPREFIX=x86_64-w64-mingw32- EXE=.exe clean all
